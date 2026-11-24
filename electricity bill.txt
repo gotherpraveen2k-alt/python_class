@@ -1,0 +1,13 @@
+Units=int(input("Enter your Units:"))
+if  Units<=100:
+     print("Electricity bill=" , (Units*2))
+elif Units>100 and Units<=200:
+     a=(units-100)
+     print(200+a*4)
+elif Units>200:
+     b=units-200
+     print(200+400+b*6)
+    
+     
+
+     
