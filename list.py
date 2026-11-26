@@ -172,7 +172,37 @@
 #50
 
 #SLICING in list
-#
+
+#numbers=[0,1,2,3,4,5,6,7,8,9,10,11,12,13]
+
+
+#print(numbers[2:8])
+#[2,3,4,5,6,7]
+
+
+#print(f" Slice[2:8]:{numbers[2:8]}")
+#Slice[2:8]:[2,3,4,5,6,7]
+
+#print(f"Slice[:5]:{numbers[:5]}")
+#Slice[:5]:[0,1,2,3,4]
+ 
+#print(f"Slice[4:]:{numbers[4:]}")
+#Slice[4:]: [4,5,6,7,8,9,8,9,10,11,12,13]
+
+#print(f"Slice[:]:{numbers[:]}")
+#Slice[:]:[0,1,2,3,4,5,6,7,8,9,10,11,12,13]
+
+#print(f"Slice [::4]:{numbers[::4]}")
+#Slice [::4]:[0,4,8,12]
+
+#print(f"Slice[::3]: {numbers[::3]}")
+#slice[::3]: [0,3,6,9,12]
+
+#print(f"reverse slice [::-1]: {numbers [::-1]}")
+#reverse slice [::-1]: [13,12,11,10,9,8,7,6,5,4,3,2,1,0]
+
+
+
 
 
 #No Loops Allowed question
@@ -181,32 +211,41 @@
 
 #How do you access and print the very last element of a list?
 #print(my_list[-1])
+
 #How do you reverse a list without using a loop or .reverse()?
 #reverse= my list[::-1]
 #print(reverse)
+
 #How do you add a new element to the end of a list?
 #list.append()
 #print(list)
+
 #How do you find the total number of elements inside a list?
 #total=len(list)
 #print(total)
+
 #Given a list of numbers, how do you find the sum without using a loop?
 #total = sum(numbers)
+
 #How do you find the largest and smallest numbers using built-in functions?
 #largest = max(numbers)
 #smallest = min(numbers)
 
 #print("Largest number:", largest)
 #print("Smallest number:", smallest)
+
 #How do you count how many times the number 5 appears?
 #numbers = [5, 10, 5, 20, 5, 30, 5]
 #total = numbers.count(5)
 #print("Number 5 appears:", total, "times")
+
 #list=[1,3,5,6,8,9]
 #newlist=list[:3]
 #print(newlist)
+
 #How do you completely empty a list?
 #list.clear()
+
 #How do you check if "Python" exists inside a list without loops?
 #if "python" in list:
 #              print(true)
@@ -223,12 +262,15 @@
 #element=[24,56,575,89,97]
 #for x in element:
 #        print(x)
+
 #Find the sum of all numerical elements using a loop.
 #N=[23,67,56,89,56]
 #total=0
 #for x in N:
 #      total=total+x
 #print("Sum:",total)
+
+
 #Find the largest number without using max()
 #Number=[23,67,56,89,56]
 #largest= Number[0]
@@ -236,6 +278,8 @@
 #         if x>largest:
 #             largest=x
 #print("largest number:" , largest)
+
+
 #Count how many times a specific element appears using a loop.
 #Number=[25,67,64,67,68,67]
 #count=0
@@ -243,6 +287,9 @@
 #          if x==67:
 #              count +=1
 #print("67 appears:" , count)
+
+
+
 #Create a new list containing squares of all numbers from an existing list
 #L1=[2,5,7,8,9,1]
 #L2=[]
@@ -269,6 +316,7 @@
 #       if x not in B: 
 #            B.append(x)
 #print("List without duplicates:", B)
+
 
 #Check if a specific element exists without using the in keyword.
 #List=[2,4,6,7,8,5,]
